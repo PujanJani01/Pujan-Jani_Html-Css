@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: aquamarine;"> 
     <form action="thanks.html" method="get">
-        <fieldset>
-            <legend>Student Form</legend>
+        <fieldset >
+            <legend style="margin-left:40% ; font-weight:bold;">Registration Form</legend>
         <label for="name">Enter your name :</label>
         <input id="name" type="text" placeholder="Name" autocomplete> <br><br>
 
-        <label for="age">Enter your age :</label>
-        <input id="age" type="number" min="1" placeholder="Age"> <br><br>
+        <label for="DOB">Enter your age :</label>
+        <input id="DOB" type="date"> <br><br>
 
         <label for="city">Enter your city :</label>
         <select id="city">
@@ -23,6 +23,17 @@
             <option>Delhi</option>
             <option>Banglore</option>
         </select> <br><br>
+
+        <label for="SPI">Enter your SPI :</label>
+        <input id="SPT" type="text"> <br><br>
+
+        <label>Select languages you want to learn :</label><br>
+        <input id="html" type="checkbox">
+        <label for="html">HTML</label><br>
+        <input id="css" type="checkbox">
+        <label for="css">CSS</label><br>
+        <input id="js" type="checkbox">
+        <label for="js">JavaScript</label> <br><br>
 
         <label for="about">Write somthing about yourself</label><br>
         <textarea id="about" rows="5" cols="30"></textarea><br><br>
