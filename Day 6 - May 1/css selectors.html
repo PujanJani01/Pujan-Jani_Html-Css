@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        *{
+            font-family:cursive;              /*universal selector*/
+        }
+        h2:first-of-type{                     /*element selector*/
+            color:blue;
+        }
+        #id{                                   /*Id selector*/
+            background-color: bisque;
+        }
+        .class{                                /*Class selector*/
+            border: 2px solid red;
+        }
+        #grouping, p {                         /*Grouping selector*/
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+
+    <h2>This is Element Selector</h2>
+
+    <h2 id="id">This is Id Selector</h2>
+
+    <h2 class="class">This is Class Selector</h2>
+
+    <h2 id="grouping">This is Grouping Selector</h2>
+    <p>you can choose more than on Element</p>
+</body>
+</html>
